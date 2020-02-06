@@ -49,9 +49,9 @@ Resources:
       TargetGroupARNs:
         - !Ref TargetGroupARN
       VPCZoneIdentifier: !Ref Subnets
-    UpdatePolicy:
-      AutoScalingReplacingUpdate:
-        WillReplace: true
+#    UpdatePolicy:
+#      AutoScalingReplacingUpdate:
+#        WillReplace: true
 
 
   ScaleUpPolicy:
